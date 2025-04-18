@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #7e22ce;
+  --text: #222;
+  --success: var(--color-green-500);
+  --danger: var(--color-red-500);
+  --radius: 24px;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-text: var(--text);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  color: var(--color-text);
+}
+
+.card {
+  padding: 24px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-gray-100);
+}
+
+.active-item {
+  background-color: var(--color-purple-200);
+  color: var(--primary);
+  border-radius: var(--radius);
+}
+
+.btn {
+  font-weight: 500;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: background-color 0.4s;
+}
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-purple-950);
+}
+
+.btn-danger {
+
+}
+
+.btn-success {
+
+}
+
+input {
+  border: 1px solid var(--color-gray-100);
+  border-radius: 6px;
+  padding: 12px;
+  font-weight: normal;
+}
