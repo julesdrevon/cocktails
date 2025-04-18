@@ -44,6 +44,12 @@ body {
   color: white;
 }
 
+.btn-outline-primary {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
 .btn-primary:hover {
   background-color: var(--color-purple-950);
 }

@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {HeaderComponent} from './components/header/header.component';
 import {CocktailsComponent} from './components/cocktails/cocktails.component';
 import {FooterComponent} from './components/footer.component';
+// import {seedData} from './shared/data/seed';
 
 @Component({
   selector: 'app-root',
@@ -24,5 +25,5 @@ import {FooterComponent} from './components/footer.component';
   `
 })
 export class AppComponent {
-  title = 'cocktails';
+
 }
